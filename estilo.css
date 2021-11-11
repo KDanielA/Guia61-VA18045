@@ -1,0 +1,17 @@
+
+
+img {width:3cm;height:3cm;}
+#tabla {width:80%;margin:auto;}
+th#price {cursor:pointer;}
+li {color:blue;}
+/*si chequea muestra los productos sin cheque desaparecen los productos*/
+input#c1:checked ~ table tbody tr.c1 { display: table-row; }
+input#c1:not(checked) ~ table tbody tr.c1 { display: none; }
+input#c2:checked ~ table tbody tr.c2 { display: table-row; }
+input#c2:not(checked) ~ table tbody tr.c2 { display: none; }
+input#c3:checked ~ table tbody tr.c3 { display: table-row; }
+input#c3:not(checked) ~ table tbody tr.c3 { display: none; }
+input#c4:checked ~ table tbody tr.c4 { display: table-row; }
+input#c4:not(checked) ~ table tbody tr.c4 { display: none; }
+
+
